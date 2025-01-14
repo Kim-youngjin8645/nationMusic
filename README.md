@@ -71,17 +71,17 @@ class SpecificCountry extends Country implements NationalMusic {/* 구체 클래
     }
 }
 
-// 4. 예외 처리 클래스
+/* 4. 예외 처리 클래스*/
 class CountryNotFoundException extends Exception {
     public CountryNotFoundException(String message) {
-        super(message); // 예외 메시지 초기화
+        super(message); /* 예외 메시지 초기화*/
     }
 }
 
 public class NationalMusicProgram {
     public static void main(String[] args) {
-        // 7. 컬렉션 프레임워크: 국가 데이터를 저장하는 리스트
-        List<SpecificCountry> countries = new ArrayList<>(); // 국가 데이터 저장용 리스트
+        /* 7. 컬렉션 프레임워크: 국가 데이터를 저장하는 리스트*/
+        List<SpecificCountry> countries = new ArrayList<>(); /* 국가 데이터 저장용 리스트*/
         Scanner scanner = new Scanner(System.in);
 
         // 초기 국가 데이터 추가
