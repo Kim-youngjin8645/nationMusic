@@ -11,8 +11,7 @@ import java.io.*;
 import java.util.*;
 
 public enum Continent {
-//6.대륙들 열거형
-	Asia, Europe, Africa, Americas, Oceania
+	Asia, Europe, Africa, Americas, Oceania//6.대륙 열거형
 }
 interface NationalMusic{
 //3.인터페이스 국가음악정보들
