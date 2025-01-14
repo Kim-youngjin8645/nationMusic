@@ -7,17 +7,18 @@ package NationMusic;
 import java.io.*;
 import java.util.*;
 
-// 6. 대륙 열거형:각 대륙을 정의한 열거형
+// 6. 대륙 열거형: 각 대륙을 정의한 열거형
 public enum Continent {
     Asia, Europe, Africa, Americas, Oceania; // 6개의 대륙을 정의
 }
+
 // 3. 국가 음악 정보를 출력하는 인터페이스
 interface NationalMusic {
-    void displayInfo();
+    void displayInfo();  // 국가 정보 출력 메서드
 }
 
+// 2. 국가 추상 클래스 상속: 국가의 기본 정보와 국가별 음악을 관리
 abstract class Country {
-    // 2. 국가 추상 클래스 상속
     private String name;        // 국가 이름
     private Continent continent; // 국가의 대륙
 
