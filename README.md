@@ -8,13 +8,13 @@ import java.io.*;
 import java.util.*;
 
 
-public enum Continent {// 6. 대륙 열거형: 각 대륙을 정의한 열거형
-    Asia, Europe, Africa, Americas, Oceania; // 6개의 대륙을 정의
+public enum Continent {/* 6. 대륙 열거형: 각 대륙을 정의한 열거형*/
+    Asia, Europe, Africa, Americas, Oceania; /* 6개의 대륙을 정의*/
 }
 
 
-interface NationalMusic {// 3. 국가 음악 정보를 출력하는 인터페이스
-    void displayInfo();  // 국가 정보 출력 메서드
+interface NationalMusic {/* 3. 국가 음악 정보를 출력하는 인터페이스*/
+    void displayInfo();  /* 국가 정보 출력 메서드*/
 }
 
 // 2. 국가 추상 클래스 상속: 국가의 기본 정보와 국가별 음악을 관리
