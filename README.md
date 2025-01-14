@@ -8,7 +8,7 @@ import java.io.*;
 import java.util.*;
 
 
-public enum Continent /* 6. 대륙 열거형: 각 대륙을 정의한 열거형*/{
+public enum Continent {// 6. 대륙 열거형: 각 대륙을 정의한 열거형
     Asia, Europe, Africa, Americas, Oceania; // 6개의 대륙을 정의
 }
 
@@ -41,8 +41,7 @@ abstract class Country {
     // 각 국가별 음악 정보 출력용 추상 메서드
 }
 
-// 구체 클래스: 특정 국가
-class SpecificCountry extends Country implements NationalMusic {
+class SpecificCountry extends Country implements NationalMusic {// 구체 클래스: 특정 국가
     private String music; // 국가의 대표 음악
 
     public SpecificCountry(String name, Continent continent, String music) {
