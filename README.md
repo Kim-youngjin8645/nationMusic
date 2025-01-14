@@ -1,6 +1,11 @@
 # nationMusic
 코드및영상
 https://drive.google.com/file/d/1vfgSheEmIyNIQiqcFXlL5xmd6tkkldTp/view?usp=drive_link
+일부분이 주석처리가 안되는 에러가 발생하여 참고부탁드립니다.
+
+
+
+
 
 package NationMusic;
 
@@ -41,8 +46,8 @@ abstract class Country {
     // 각 국가별 음악 정보 출력용 추상 메서드
 }
 
-class SpecificCountry extends Country implements NationalMusic {// 구체 클래스: 특정 국가
-    private String music; // 국가의 대표 음악
+class SpecificCountry extends Country implements NationalMusic {/* 구체 클래스: 특정 국가*/
+    private String music; /* 국가의 대표 음악*/
 
     public SpecificCountry(String name, Continent continent, String music) {
         super(name, continent);  // 부모 클래스 초기화
