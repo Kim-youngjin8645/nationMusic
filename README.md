@@ -2,16 +2,13 @@
 코드및영상
 https://drive.google.com/file/d/1vfgSheEmIyNIQiqcFXlL5xmd6tkkldTp/view?usp=drive_link
 
-
-
-
-
 package NationMusic;
 import java.io.*;
 import java.util.*;
 
 public enum Continent {
 	Asia, Europe, Africa, Americas, Oceania//6.대륙 열거형
+ 
 }
 interface NationalMusic{
 //3.인터페이스 국가음악정보들
