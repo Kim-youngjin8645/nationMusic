@@ -10,13 +10,16 @@ package NationMusic;
 import java.io.*;
 import java.util.*;
 
-public enum Continent {//6.대륙들 열거형
+public enum Continent {
+//6.대륙들 열거형
 	Asia, Europe, Africa, Americas, Oceania
 }
-interface NationalMusic{//3.인터페이스 국가음악정보들
+interface NationalMusic{
+//3.인터페이스 국가음악정보들
 	void displayInfo();
 }
-abstract class Country{//국가 추상클래스
+abstract class Country{
+//국가 추상클래스
 	private String name;//이름
 	private Continent continent;//대륙이름
 	
@@ -24,13 +27,16 @@ abstract class Country{//국가 추상클래스
 		this.name=name;//국가이름저장
 		this.continent=continent;//대륙저장
 	}
-	public String getName() {//국가이름반환
+	public String getName() {
+ //국가이름반환
 		return name;
 	}
-	public Continent getContinent() {//국가 대륙반환
+	public Continent getContinent() {
+ //국가 대륙반환
 		return continent;
 	}
-	public abstract void showNationalMusic();//추상메서드
+	public abstract void showNationalMusic();
+ //추상메서드
 }
  //구체 클래스: 특정국가 Country를 상속받아 국가이름,대륙,음악정보초기화.
 class SpecificCountry extends Country implements NationalMusic{//5.다형성
