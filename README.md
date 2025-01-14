@@ -8,9 +8,9 @@ import java.io.*;
 import java.util.*;
 
 
-public enum Continent {
+public enum Continent /* 6. 대륙 열거형: 각 대륙을 정의한 열거형*/{
     Asia, Europe, Africa, Americas, Oceania; // 6개의 대륙을 정의
-}// 6. 대륙 열거형: 각 대륙을 정의한 열거형
+}
 
 
 interface NationalMusic {// 3. 국가 음악 정보를 출력하는 인터페이스
